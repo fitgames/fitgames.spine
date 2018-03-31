@@ -16,6 +16,9 @@
     <NeutralLanguage>en</NeutralLanguage>
     <RepositoryType>Git</RepositoryType>
     <Copyright>esotericsoftware</Copyright>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/37526913?s=200&amp;v=4</PackageIconUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
