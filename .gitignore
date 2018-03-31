@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/SpineRuntime/v15
+/.vs
+/src/FitGames.Spine/bin/Debug
+/src/FitGames.Spine/obj

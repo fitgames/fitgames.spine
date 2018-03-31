@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>Fit Games</Company>
+    <Authors>Felipe Ramos</Authors>
+    <Product>Spine Runtime</Product>
+    <Description>Spine Runtime for MonoGame with modifications for Content Pipeline</Description>
+    <PackageLicenseUrl>https://github.com/fitgames/fitgames.spine/blob/master/license.txt</PackageLicenseUrl>
+    <PackageProjectUrl>http://esotericsoftware.com/spine-runtimes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fitgames/fitgames.spine</RepositoryUrl>
+    <PackageTags>monogame, spine, spine-runtime</PackageTags>
+    <PackageReleaseNotes>Latest Spine runtime updates with two modification for content loading.</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryType>Git</RepositoryType>
+    <Copyright>esotericsoftware</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.Portable" Version="3.6.0.1625" />
+  </ItemGroup>
+
+</Project>
