@@ -1,4 +1,5 @@
-# FitGames.Spine
+# FitGames.Spine 
+<img src="https://ci.appveyor.com/api/projects/status/nfat1fqjtg9cqc4v" alt="build status" >
 
 FitGames.Spine is an extension of the <a href="https://github.com/EsotericSoftware/spine-runtimes/">Spine Runtime</a>, and the XNA supporting objects.
 
