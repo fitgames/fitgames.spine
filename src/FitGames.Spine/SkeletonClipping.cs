@@ -171,7 +171,7 @@ namespace Spine {
 
 		/** Clips the input triangle against the convex, clockwise clipping area. If the triangle lies entirely within the clipping
 		 * area, false is returned. The clipping area must duplicate the first vertex at the end of the vertices list. */
-		internal bool Clip (float x1, float y1, float x2, float y2, float x3, float y3, ExposedList<float> clippingArea, ExposedList<float> output) {
+		public bool Clip (float x1, float y1, float x2, float y2, float x3, float y3, ExposedList<float> clippingArea, ExposedList<float> output) {
 			var originalOutput = output;
 			var clipped = false;
 
@@ -258,7 +258,7 @@ namespace Spine {
 			return clipped;
 		}
 
-		internal static void MakeClockwise (ExposedList<float> polygon) {
+		public static void MakeClockwise (ExposedList<float> polygon) {
 			float[] vertices = polygon.Items;
 			int verticeslength = polygon.Count;
 
