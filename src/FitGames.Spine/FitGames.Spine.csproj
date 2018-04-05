@@ -7,25 +7,19 @@
     <Company>Fit Games</Company>
     <Authors>Felipe Ramos</Authors>
     <Product>Spine Runtime</Product>
-    <Description>Spine Runtime for MonoGame with modifications for Content Pipeline</Description>
+    <Description>Spine Runtime</Description>
     <PackageLicenseUrl>https://github.com/fitgames/fitgames.spine/blob/master/license.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/fitgames/fitgames.spine</PackageProjectUrl>
     <RepositoryUrl>https://github.com/fitgames/fitgames.spine</RepositoryUrl>
     <PackageTags>monogame, spine, spine-runtime</PackageTags>
-    <PackageReleaseNotes>1.0.2
- -Organization updates and namespace changes
- -Added readme.txt</PackageReleaseNotes>
+    <PackageReleaseNotes>Removed direct reference to Monogame</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <RepositoryType>Git</RepositoryType>
     <Copyright>esotericsoftware</Copyright>
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/37526913?s=200&amp;v=4</PackageIconUrl>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.Portable" Version="3.6.0.1625" />
-  </ItemGroup>
 
 </Project>
