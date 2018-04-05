@@ -34,10 +34,10 @@ using System;
 
 namespace Spine
 {
-    public class XnaTextureLoader : TextureLoader {
+    public class MonoGameTextureLoader : TextureLoader {
 		GraphicsDevice device;
 
-		public XnaTextureLoader (GraphicsDevice device) {
+		public MonoGameTextureLoader (GraphicsDevice device) {
 			this.device = device;
 		}
 

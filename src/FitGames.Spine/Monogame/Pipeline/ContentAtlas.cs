@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Spine.Mono.Extended
+namespace Spine.Monogame.Pipeline
 {
     public sealed class ContentAtlas
     {

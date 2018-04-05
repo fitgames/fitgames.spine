@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Spine.Mono.Extended
+namespace Spine.Monogame.Pipeline
 {
     public sealed class ContentSkeletonJson : SkeletonJson
     {
