@@ -203,15 +203,15 @@ namespace Spine {
 			}
 		}
 
-		internal static string ReadValue (TextReader reader) {
+		public static string ReadValue (TextReader reader) {
 			string line = reader.ReadLine();
 			int colon = line.IndexOf(':');
 			if (colon == -1) throw new Exception("Invalid line: " + line);
 			return line.Substring(colon + 1).Trim();
 		}
 
-		/// <summary>Returns the number of tuple values read (1, 2 or 4).</summary>
-		internal static int ReadTuple (TextReader reader, string[] tuple) {
+        /// <summary>Returns the number of tuple values read (1, 2 or 4).</summary>
+        public static int ReadTuple (TextReader reader, string[] tuple) {
 			string line = reader.ReadLine();
 			int colon = line.IndexOf(':');
 			if (colon == -1) throw new Exception("Invalid line: " + line);
